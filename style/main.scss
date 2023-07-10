@@ -1,0 +1,198 @@
+    *{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    // -------------FONTS-------------
+    @font-face {
+        font-family: 'Rubik', sans-serif;
+        src: url("../font/Rubik-Italic-VariableFont_wght.ttf");
+        src: url("../font/Rubik-VariableFont_wght.ttf");
+    }
+    @font-face {
+        font-family: "Poppins", sans-serif;
+        src: url("../font/poppins/Poppins-Black.ttf");
+        src: url("../font/poppins/Poppins-BlackItalic.ttf");
+        src: url("../font/poppins/Poppins-Bold.ttf");
+        src: url("../font/poppins/Poppins-BoldItalic.ttf");
+        src: url("../font/poppins/Poppins-ExtraBoldItalic.ttf");
+        src: url("../font/poppins/Poppins-ExtraBold.ttf");
+        src: url("../font/poppins/Poppins-ExtraLight.ttf");
+        src: url("../font/poppins/Poppins-ExtraLightItalic.ttf");
+        src: url("../font/poppins/Poppins-Italic.ttf");
+        src: url("../font/poppins/Poppins-Light.ttf");
+        src: url("../font/poppins/Poppins-LightItalic.ttf");
+        src: url("../font/poppins/Poppins-MediumItalic.ttf");
+        src: url("../font/poppins/Poppins-Regular.ttf");
+        src: url("../font/poppins/Poppins-SemiBold.ttf");
+        src: url("../font/poppins/Poppins-SemiBoldItalic.ttf");
+        src: url("../font/poppins/Poppins-Thin.ttf");
+        src: url("../font/poppins/Poppins-ThinItalic.ttf");
+      }
+      nav, section ,footer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .container{
+            width: 1300px;
+        }
+      }
+    
+    
+    
+    
+    
+    
+    // Mirjalol aka
+    // ---------------navbar  start--------------- -->
+    
+
+
+    // ---------------navbar  stop--------------- -->
+    // ----------------home start---------------- -->
+   
+
+
+
+    // ----------------home stop---------------- -->
+    // ----------------Who we are- start--------------- -->
+    
+
+
+
+
+    // ----------------Who we are  stop---------------- -->
+
+
+    // Nilufar opa
+    // ----------------servisec start---------------- -->
+    
+
+
+
+
+
+    // ----------------servisec stop---------------- -->
+
+    // Abu
+    // ----------------Testimoils start---------------- -->
+    
+
+
+
+
+
+    // ----------------Testimoils stop---------------- -->
+
+
+    // Dilshoda && Quvonch
+    // ----------------logIn start---------------- -->
+   
+
+
+
+
+
+    // ----------------logIn stop---------------- -->
+
+
+    // Sarvara
+    // ----------------contactAs start---------------- -->
+    
+
+
+
+
+
+    
+    // ----------------contactAs stop---------------- -->
+    // ----------------footer start---------------- -->
+    
+    
+
+
+
+
+
+
+
+    // ----------------footer stop---------------- -->
+
+
+
+
+    //  --------------------------------------- 500PX GA MOSLAB OLCHAB ISHLAYSILAR----------------------
+    @media screen and ( max-width:500px ){
+
+    .container{
+        max-width: 450px;
+    }
+            
+    // ---------------navbar  start--------------- -->
+    
+
+
+    // ---------------navbar  stop--------------- -->
+    // ----------------home start---------------- -->
+   
+
+
+
+    // ----------------home stop---------------- -->
+    // ----------------Who we are- start--------------- -->
+    
+
+
+
+
+    // ----------------Who we are  stop---------------- -->
+    // ----------------servisec start---------------- -->
+    
+
+
+
+
+
+    // ----------------servisec stop---------------- -->
+    // ----------------Testimoils start---------------- -->
+    
+
+
+
+
+
+    // ----------------Testimoils stop---------------- -->
+    // ----------------logIn start---------------- -->
+   
+
+
+
+
+
+    // ----------------logIn stop---------------- -->
+    // ----------------contactAs start---------------- -->
+    
+
+
+
+
+
+    
+    // ----------------contactAs stop---------------- -->
+    // ----------------footer start---------------- -->
+    
+    
+
+
+
+
+
+
+
+    // ----------------footer stop---------------- -->
+
+
+
+
+
+    }
