@@ -43,11 +43,231 @@ footer {
 // Mirjalol aka
 // ---------------navbar  start--------------- -->
 
+.black {
+  background: black;
+  .container {
+    padding: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    p,
+    b {
+      color: var(--text, #fafafa);
+      font-family: "Rubik", sans-serif;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 21px;
+    }
+    b {
+      font-weight: 700;
+      text-decoration: underline;
+    }
+  }
+}
+.white {
+  .container {
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1330px;
+    ul {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 40px;
+      li {
+        list-style: none;
+        a {
+          text-decoration: none;
+          color: #1c1c1c;
+          font-family: "Rubik", sans-serif;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 600;
+          line-height: 21px;
+        }
+      }
+    }
+    button {
+      border-radius: 6px;
+      background: #1341ec;
+      width: 131px;
+      height: 45px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+      font-family: Arial, Helvetica, sans-serif;
+      border: none;
+      font-size: 14px;
+      font-weight: 600;
+      line-height: 21px;
+    }
+  }
+}
 // ---------------navbar  stop--------------- -->
 // ----------------home start---------------- -->
-
+.home {
+  opacity: 0.9000000059604645;
+  background: url("../img/mirjalolAka/image\ 2.jpg");
+  background: blue;
+  padding: 50px 0;
+  .container {
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .txtLeft {
+      flex-direction: column;
+      h6 {
+        margin-top: 120px;
+        color: #fff;
+        font-family: sans-serif;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        font-variant: small-caps;
+        letter-spacing: 1.92px;
+      }
+      h1 {
+        margin-top: 10px;
+        color: #fff;
+        font-family: "Rubik", sans-serif;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 60px;
+      }
+      h5 {
+        margin-top: 25px;
+        color: #fff;
+        font-family: "Rubik", sans-serif;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 27px;
+      }
+      .input {
+        margin-top: 24px;
+        margin-bottom: 125px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 565px;
+        height: 55px;
+        border-radius: 9px;
+        overflow: hidden;
+        input {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          width: 465px;
+          height: 55px;
+          padding: 18px 30px;
+          border: none;
+          outline: none;
+          color: #c0c0c0;
+          font-family: sans-serif;
+          font-size: 13.309px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+        }
+        button {
+          width: 160px;
+          border: none;
+          height: 55px;
+          display: flex;
+          padding: 18px 26px;
+          justify-content: center;
+          align-items: center;
+          gap: 10px;
+          padding: 18px 26px;
+          background: var(--primary, #1341ec);
+          color: #fff;
+          font-family: sans-serif;
+          font-size: 13.309px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+        }
+      }
+    }
+  }
+}
 // ----------------home stop---------------- -->
 // ----------------Who we are- start--------------- -->
+
+.whoWeAre {
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 601px;
+    .txtall {
+      width: 668px;
+      position: relative;
+      h2 {
+        margin: 0px 0 40px;
+        color: var(--neutral-100, #262626);
+        font-family: "Rubik", sans-serif;
+        font-size: 64px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 96px;
+        position: relative;
+      }
+      h1 {
+        top: -20px;
+        left: -10px;
+        color: #e5e5e5;
+        opacity: 0.5;
+        position: absolute;
+        font-family: "Rubik", sans-serif;
+        font-size: 96px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+      }
+      span {
+        color: var(--neutral-80, #5d5f61);
+        font-family: "Rubik", sans-serif;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        display: block;
+        line-height: 27px;
+      }
+      button {
+        margin-top: 50px;
+        width: 183px;
+        height: 48px;
+        border-radius: 5px;
+        background: var(--primary, #1341ec);
+        color: #fff;
+        border: none;
+        font-family: "Rubik", sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 150%;
+      }
+    }
+    .imgall {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 500px;
+      position: relative;
+      .gr {
+        position: absolute;
+      }
+    }
+  }
+}
 
 // ----------------Who we are  stop---------------- -->
 
@@ -112,8 +332,7 @@ footer {
       .box {
         border-radius: 17.129px;
         background: #fff;
-        box-shadow: 0.8564284443855286px 2.5692856311798096px
-          4.282142162322998px rgba(0, 0, 0, 0.25);
+        box-shadow: 0.8564284443855286px 2.5692856311798096px 4.282142162322998px rgba(0, 0, 0, 0.25);
         width: 1050px;
         height: 490px;
         display: flex;
