@@ -116,6 +116,8 @@ footer .container {
   padding: 50px 0;
 }
 .home .container {
+  border: 0.2px solid #8f8f8f;
+  border-radius: 15px;
   padding: 30px;
   display: flex;
   justify-content: space-between;
@@ -185,18 +187,13 @@ footer .container {
   border: none;
   height: 55px;
   display: flex;
-  padding: 18px 26px;
   justify-content: center;
   align-items: center;
-  gap: 10px;
-  padding: 18px 26px;
   background: var(--primary, #1341ec);
   color: #fff;
   font-family: sans-serif;
-  font-size: 13.309px;
-  font-style: normal;
+  font-size: 13px;
   font-weight: 400;
-  line-height: normal;
 }
 
 .whoWeAre .container {
@@ -394,10 +391,17 @@ footer .container {
 }
 
 @media screen and (max-width: 361px) {
+  nav,
+  section,
+  footer {
+    width: 360px;
+    overflow: hidden;
+  }
   .container {
-    max-width: 350px;
+    width: 345px;
   }
   .black .container {
+    width: 345px;
     padding: 6px;
     display: flex;
     justify-content: center;
@@ -408,11 +412,11 @@ footer .container {
     font-size: 8px;
   }
   .white .container {
+    width: 340px;
     padding: 20px 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 1330px;
   }
   .white .container ul {
     display: none;
@@ -422,5 +426,205 @@ footer .container {
   }
   .white .container .menu {
     display: block;
+  }
+  .home {
+    padding: 11px;
+  }
+  .home .container {
+    flex-direction: column;
+    width: 345px;
+  }
+  .home .container .txtLeft {
+    flex-direction: column;
+    width: 345px;
+    padding: 29px 9px;
+  }
+  .home .container .txtLeft h6 {
+    margin: 22px 0;
+    font-size: 8px;
+    letter-spacing: 1px;
+  }
+  .home .container .txtLeft h1 {
+    margin-top: 16px;
+    font-size: 33px;
+    line-height: 39px;
+  }
+  .home .container .txtLeft h5 {
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 22px;
+  }
+  .home .container .txtLeft .input {
+    margin-bottom: 40px;
+    width: 323px;
+    height: 39px;
+  }
+  .home .container .txtLeft .input input {
+    width: 350px;
+    height: 70px;
+    font-size: 5px;
+    padding: 18px 17px;
+  }
+  .home .container .txtLeft .input button {
+    width: 160px;
+    height: 55px;
+    font-size: 11px;
+  }
+  .home .container .map {
+    width: 295px;
+    height: 141px;
+    margin-bottom: 45px;
+  }
+  .whoWeAre {
+    margin-top: 150px;
+  }
+  .whoWeAre .container {
+    justify-content: center;
+    flex-direction: column;
+  }
+  .whoWeAre .container .txtall {
+    width: 345px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .whoWeAre .container .txtall h2 {
+    margin: 0px 0 40px;
+    color: var(--neutral-100, #262626);
+    font-family: "Rubik", sans-serif;
+    font-size: 43px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 96px;
+    position: relative;
+    text-align: center;
+  }
+  .whoWeAre .container .txtall h1 {
+    top: 10px;
+    left: 25px;
+    font-size: 57px;
+    text-align: center;
+  }
+  .whoWeAre .container .txtall span {
+    font-size: 10px;
+    line-height: 15px;
+    text-align: center;
+  }
+  .whoWeAre .container .txtall button {
+    margin-top: 50px;
+    width: 102px;
+    height: 25px;
+    border-radius: 3px;
+    background: var(--primary, #1341ec);
+    color: #fff;
+    border: none;
+    font-family: "Rubik", sans-serif;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+  }
+  .whoWeAre .container .imgall {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    position: relative;
+  }
+  .whoWeAre .container .imgall img {
+    margin: 190px 0 300px;
+    height: 20px;
+  }
+  .whoWeAre .container .imgall .gr {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+  }
+  .Testimoils .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .Testimoils .container h5 {
+    margin-top: 46px;
+  }
+  .Testimoils .container h2 {
+    font-size: 23px;
+  }
+  .Testimoils .container h3 {
+    top: 120px;
+    font-size: 45px;
+  }
+  .Testimoils .container swiper-container {
+    margin: 60px 0 300px;
+    width: 500px;
+    height: 100%;
+  }
+  .Testimoils .container swiper-slide {
+    width: 345px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .Testimoils .container swiper-slide .box {
+    flex-direction: column-reverse;
+    width: 345px;
+    height: auto;
+    justify-content: center;
+  }
+  .Testimoils .container swiper-slide .box .mean {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+  }
+  .Testimoils .container swiper-slide .box .mean span {
+    width: 282px;
+    font-size: 9px;
+    line-height: 15px;
+  }
+  .Testimoils .container swiper-slide .box .mean .top {
+    position: absolute;
+    width: 20px;
+    top: -80px;
+    left: -56px;
+  }
+  .Testimoils .container swiper-slide .box .mean .botton {
+    width: 20px;
+    position: absolute;
+    bottom: 41px;
+    right: 0;
+  }
+  .Testimoils .container swiper-slide .box .mean img {
+    margin-top: 60px;
+  }
+  .Testimoils .container swiper-slide .box .img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+  }
+  .Testimoils .container swiper-slide .box .img .bg {
+    position: absolute;
+    left: 71px;
+    top: 6px;
+  }
+  .Testimoils .container swiper-slide .box .img img {
+    width: 160px;
+    height: 160px;
+  }
+  .Testimoils .container swiper-slide .box .img h4 {
+    margin-top: 20px;
+    font-size: 20px;
+    line-height: 20px;
+  }
+  .Testimoils .container swiper-slide .box .img span {
+    font-size: 9px;
+    line-height: 10px;
+    width: 250px;
   }
 }/*# sourceMappingURL=main.css.map */

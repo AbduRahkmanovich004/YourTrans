@@ -105,7 +105,7 @@ footer {
       font-weight: 600;
       line-height: 21px;
     }
-    .menu{
+    .menu {
       display: none;
     }
   }
@@ -118,6 +118,8 @@ footer {
   background: blue;
   padding: 50px 0;
   .container {
+    border: 0.2px solid#8f8f8f;
+    border-radius: 15px;
     padding: 30px;
     display: flex;
     justify-content: space-between;
@@ -184,18 +186,13 @@ footer {
           border: none;
           height: 55px;
           display: flex;
-          padding: 18px 26px;
           justify-content: center;
           align-items: center;
-          gap: 10px;
-          padding: 18px 26px;
           background: var(--primary, #1341ec);
           color: #fff;
           font-family: sans-serif;
-          font-size: 13.309px;
-          font-style: normal;
+          font-size: 13px;
           font-weight: 400;
-          line-height: normal;
         }
       }
     }
@@ -335,7 +332,8 @@ footer {
       .box {
         border-radius: 17.129px;
         background: #fff;
-        box-shadow: 0.8564284443855286px 2.5692856311798096px 4.282142162322998px rgba(0, 0, 0, 0.25);
+        box-shadow: 0.8564284443855286px 2.5692856311798096px
+          4.282142162322998px rgba(0, 0, 0, 0.25);
         width: 1050px;
         height: 490px;
         display: flex;
@@ -430,13 +428,20 @@ footer {
 
 //  --------------------------------------- 500PX GA MOSLAB OLCHAB ISHLAYSILAR----------------------
 @media screen and (max-width: 361px) {
+  nav,
+  section,
+  footer {
+    width: 360px;
+    overflow: hidden;
+  }
   .container {
-    max-width: 350px;
+    width: 345px;
   }
 
   // ---------------navbar  start--------------- -->
   .black {
     .container {
+      width: 345px;
       padding: 6px;
       display: flex;
       justify-content: center;
@@ -449,18 +454,18 @@ footer {
   }
   .white {
     .container {
+      width: 340px;
       padding: 20px 0;
       display: flex;
       align-items: center;
       justify-content: space-between;
-      width: 1330px;
       ul {
         display: none;
       }
       button {
         display: none;
       }
-      .menu{
+      .menu {
         display: block;
       }
     }
@@ -468,14 +473,220 @@ footer {
   // ---------------navbar  stop--------------- -->
   // ----------------home start---------------- -->
 
+  .home {
+    padding: 11px;
+    .container {
+      flex-direction: column;
+      width: 345px;
+      .txtLeft {
+        flex-direction: column;
+        width: 345px;
+        padding: 29px 9px;
+        h6 {
+          margin: 22px 0;
+          font-size: 8px;
+          letter-spacing: 1px;
+        }
+        h1 {
+          margin-top: 16px;
+          font-size: 33px;
+          line-height: 39px;
+        }
+        h5 {
+          font-size: 12px;
+          font-weight: 300;
+          line-height: 22px;
+        }
+        .input {
+          margin-bottom: 40px;
+          width: 323px;
+          height: 39px;
+          input {
+            width: 350px;
+            height: 70px;
+            font-size: 5px;
+            padding: 18px 17px;
+          }
+          button {
+            width: 160px;
+            height: 55px;
+            font-size: 11px;
+          }
+        }
+      }
+      .map {
+        width: 295px;
+        height: 141px;
+        margin-bottom: 45px;
+      }
+    }
+  }
+
   // ----------------home stop---------------- -->
   // ----------------Who we are- start--------------- -->
+
+  .whoWeAre {
+    margin-top: 150px;
+    .container {
+      justify-content: center;
+      flex-direction: column;
+      .txtall {
+        width: 345px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        h2 {
+          margin: 0px 0 40px;
+          color: var(--neutral-100, #262626);
+          font-family: "Rubik", sans-serif;
+          font-size: 43px;
+          font-style: normal;
+          font-weight: 600;
+          line-height: 96px;
+          position: relative;
+          text-align: center;
+        }
+        h1 {
+          top: 10px;
+          left: 25px;
+          font-size: 57px;
+          text-align: center;
+        }
+        span {
+          font-size: 10px;
+          line-height: 15px;
+          text-align: center;
+        }
+        button {
+          margin-top: 50px;
+          width: 102px;
+          height: 25px;
+          border-radius: 3px;
+          background: var(--primary, #1341ec);
+          color: #fff;
+          border: none;
+          font-family: "Rubik", sans-serif;
+          font-size: 11px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: 150%;
+        }
+      }
+      .imgall {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 500px;
+        position: relative;
+        img {
+          margin: 190px 0 300px;
+          height: 20px;
+        }
+        .gr {
+          width: 300px;
+          height: 300px;
+          position: absolute;
+        }
+      }
+    }
+  }
 
   // ----------------Who we are  stop---------------- -->
   // ----------------servisec start---------------- -->
 
   // ----------------servisec stop---------------- -->
   // ----------------Testimoils start---------------- -->
+
+  .Testimoils {
+    .container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      h5 {
+        margin-top: 46px;
+      }
+      h2 {
+        font-size: 23px;
+      }
+      h3 {
+        top: 120px;
+        font-size: 45px;
+      }
+      swiper-container {
+        margin: 60px 0 300px;
+        width: 500px;
+        height: 100%;
+      }
+
+      swiper-slide {
+        width: 345px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .box {
+          flex-direction: column-reverse;
+          width: 345px;
+          height: auto;
+          justify-content: center;
+          .mean {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            span {
+              width: 282px;
+              font-size: 9px;
+              line-height: 15px;
+            }
+            position: relative;
+            .top {
+              position: absolute;
+              width: 20px;
+              top: -80px;
+              left: -56px;
+            }
+            .botton {
+              width: 20px;
+              position: absolute;
+              bottom: 41px;
+              right: 0;
+            }
+            img {
+              margin-top: 60px;
+            }
+          }
+          .img {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            position: relative;
+            .bg {
+              position: absolute;
+              left: 71px;
+              top: 6px;
+            }
+            img {
+              width: 160px;
+              height: 160px;
+            }
+            h4 {
+              margin-top: 20px;
+              font-size: 20px;
+              line-height: 20px;
+            }
+            span {
+              font-size: 9px;
+              line-height: 10px;
+              width: 250px;
+            }
+          }
+        }
+      }
+    }
+  }
 
   // ----------------Testimoils stop---------------- -->
   // ----------------logIn start---------------- -->
