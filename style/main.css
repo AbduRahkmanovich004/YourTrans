@@ -105,6 +105,9 @@ footer .container {
   font-weight: 600;
   line-height: 21px;
 }
+.white .container .menu {
+  display: none;
+}
 
 .home {
   opacity: 0.900000006;
@@ -390,8 +393,34 @@ footer .container {
   opacity: 0.8;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 361px) {
   .container {
-    max-width: 450px;
+    max-width: 350px;
+  }
+  .black .container {
+    padding: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .black .container p,
+  .black .container b {
+    font-size: 8px;
+  }
+  .white .container {
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1330px;
+  }
+  .white .container ul {
+    display: none;
+  }
+  .white .container button {
+    display: none;
+  }
+  .white .container .menu {
+    display: block;
   }
 }/*# sourceMappingURL=main.css.map */

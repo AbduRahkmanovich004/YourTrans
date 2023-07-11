@@ -105,6 +105,9 @@ footer {
       font-weight: 600;
       line-height: 21px;
     }
+    .menu{
+      display: none;
+    }
   }
 }
 // ---------------navbar  stop--------------- -->
@@ -426,13 +429,42 @@ footer {
 // ----------------footer stop---------------- -->
 
 //  --------------------------------------- 500PX GA MOSLAB OLCHAB ISHLAYSILAR----------------------
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 361px) {
   .container {
-    max-width: 450px;
+    max-width: 350px;
   }
 
   // ---------------navbar  start--------------- -->
-
+  .black {
+    .container {
+      padding: 6px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      p,
+      b {
+        font-size: 8px;
+      }
+    }
+  }
+  .white {
+    .container {
+      padding: 20px 0;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 1330px;
+      ul {
+        display: none;
+      }
+      button {
+        display: none;
+      }
+      .menu{
+        display: block;
+      }
+    }
+  }
   // ---------------navbar  stop--------------- -->
   // ----------------home start---------------- -->
 
